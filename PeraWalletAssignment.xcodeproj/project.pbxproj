@@ -18,6 +18,7 @@
 		69B760472B85EAC90091961E /* FavoriteRepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B760462B85EAC90091961E /* FavoriteRepositoryManager.swift */; };
 		69B760492B85EB700091961E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B760482B85EB700091961E /* SearchBar.swift */; };
 		69B7604E2B874EA10091961E /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7604D2B874EA10091961E /* ImageLoader.swift */; };
+		69B7605F2B8772F00091961E /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7605E2B8772F00091961E /* FavoritesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		69B760462B85EAC90091961E /* FavoriteRepositoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRepositoryManager.swift; sourceTree = "<group>"; };
 		69B760482B85EB700091961E /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		69B7604D2B874EA10091961E /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		69B7605E2B8772F00091961E /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				691805442B7E3F080044FFFF /* RepositoryView.swift */,
+				69B7605E2B8772F00091961E /* FavoritesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B7605F2B8772F00091961E /* FavoritesView.swift in Sources */,
 				69B760412B8379760091961E /* RepositoryListViewModel.swift in Sources */,
 				691805452B7E3F080044FFFF /* RepositoryView.swift in Sources */,
 				69B760472B85EAC90091961E /* FavoriteRepositoryManager.swift in Sources */,
