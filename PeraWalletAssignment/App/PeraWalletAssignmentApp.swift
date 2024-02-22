@@ -11,7 +11,7 @@ import SwiftUI
 struct PeraWalletAssignmentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RepositoryView()
         }
     }
 }
